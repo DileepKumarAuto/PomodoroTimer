@@ -1,0 +1,81 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;    
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(235, 230, 225, 0.9);
+    padding: 20px; /* Increased padding for better spacing */
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    margin-right: 200px; /* Shift the container to the left */
+    margin-bottom: 100px; /* Shift the container to the left */
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#timer {
+    font-size: 56px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: bold;
+}
+
+.controls button {
+    margin: 10px 5px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+#settings {
+    margin-top: 30px;
+}
+
+#settings label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+#settings input {
+    width: 60px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Flex container for side-by-side alignment */
+.setting-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
